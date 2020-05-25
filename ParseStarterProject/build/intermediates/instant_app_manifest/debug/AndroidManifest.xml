@@ -35,7 +35,6 @@
         android:extractNativeLibs="false"
         android:icon="@mipmap/check"
         android:label="Innocent Friend"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.parse.starter.PopupEventRequestActivity"
