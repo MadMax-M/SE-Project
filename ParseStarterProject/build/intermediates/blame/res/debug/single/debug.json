@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_attendence.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_attendence.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_custom_gradient.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\drawable\\custom_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_subjects_list.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_subjects_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_edit_text_skin.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\drawable\\edit_text_skin.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_send_event.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_send_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_user.jpg.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\drawable\\user.jpg"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_check.png.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\mipmap-mdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_popup_event_view.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_popup_event_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_getting_slots.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_getting_slots.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_select_subject.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_select_subject.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_popup_attendence.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_popup_attendence.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_requesting_attendence.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_requesting_attendence.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_background_c.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\drawable\\background_c.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_event_editor.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_event_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\menu_main_menu_view.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\menu\\main_menu_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_note_view.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_note_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_user2.png.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\drawable\\user2.png"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_board.png.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\debug\\res\\drawable\\board.png"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_left_curve.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\drawable\\left_curve.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_share_events.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_share_events.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_right_curve.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\drawable\\right_curve.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_events.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_edit_events.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_check.png.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\debug\\res\\drawable\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_note_editor.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_note_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_time_table.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_time_table.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_popup_note_view.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_popup_note_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_events_requests.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_all_events_requests.xml"
+    },
+    {
+        "merged": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_popup_event_request.xml.flat",
+        "source": "C:\\Users\\divyanshu\\Desktop\\coding\\Android Studio\\Udemy\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\layout\\activity_popup_event_request.xml"
+    }
+]

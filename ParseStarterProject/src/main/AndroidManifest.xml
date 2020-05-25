@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.parse.starter">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".StarterApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/check"
+        android:label="Innocent Friend"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PopupEventRequestActivity"
+            android:theme="@style/AppTheme.CustomTheme" />
+            />
+        <activity android:name=".AllEventsRequestsActivity"
+            android:parentActivityName=".ShareEventsActivity"/>
+        <activity android:name=".SendEventActivity"
+            android:parentActivityName=".ShareEventsActivity"/>
+        <activity android:name=".ShareEventsActivity"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".PopupNoteView"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".NoteViewActivity"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".RequestingAttendenceActivity"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".AttendenceActivity"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".PopupEventView"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".EventEditorActivity"
+            android:parentActivityName=".EditEventsActivity"/>
+        <activity
+            android:name=".PopupAttendenceActivity"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".EditEventsActivity"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".SettingsActivity"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SelectSubjectActivity"
+            android:parentActivityName=".GettingSlotsActivity"/>
+        <activity android:name=".GettingSlotsActivity"
+            android:parentActivityName=".TimeTableActivity"/>
+        <activity android:name=".TimeTableActivity"
+            android:parentActivityName=".SubjectsListActivity"/>
+        <activity android:name=".NoteEditorActivity"
+            android:theme="@style/AppTheme.CustomTheme" />
+        />
+        <activity android:name=".SubjectsListActivity"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoTitle"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+        <receiver android:name=".AlertReceiver" />
+        <receiver
+            android:name=".TaskReceiver"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

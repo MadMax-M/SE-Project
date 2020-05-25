@@ -1,0 +1,458 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.parse.starter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:8:22-76
+15
+16    <!-- Optional permission for Analytics to run. -->
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions required for GCM -->
+17-->[com.google.android.gms:play-services-analytics:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\e48deac817a8c4c533030adfe36a402f\play-services-analytics-9.4.0\AndroidManifest.xml:25:5-67
+17-->[com.google.android.gms:play-services-analytics:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\e48deac817a8c4c533030adfe36a402f\play-services-analytics-9.4.0\AndroidManifest.xml:25:22-65
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.android.gms:play-services-gcm:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\722266caa8355c75df57f21ef5a8c226\play-services-gcm-9.4.0\AndroidManifest.xml:21:5-82
+18-->[com.google.android.gms:play-services-gcm:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\722266caa8355c75df57f21ef5a8c226\play-services-gcm-9.4.0\AndroidManifest.xml:21:22-79
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\e29d6ed921c415ed625cd3ebeba6ba73\play-services-maps-9.4.0\AndroidManifest.xml:22:5-24:33
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\e29d6ed921c415ed625cd3ebeba6ba73\play-services-maps-9.4.0\AndroidManifest.xml:23:8-40
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\e29d6ed921c415ed625cd3ebeba6ba73\play-services-maps-9.4.0\AndroidManifest.xml:24:8-31
+23
+24    <permission
+24-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:25:5-26:47
+25        android:name="com.parse.starter.permission.C2D_MESSAGE"
+25-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:25:17-71
+26        android:protectionLevel="signature" />
+26-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:26:9-44
+27
+28    <uses-permission android:name="com.parse.starter.permission.C2D_MESSAGE" />
+28-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:28:5-79
+28-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:28:22-76
+29
+30    <application
+30-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:10:5-79:19
+31        android:name="com.parse.starter.StarterApplication"
+31-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:11:9-43
+32        android:allowBackup="true"
+32-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:12:9-35
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/check"
+35-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:13:9-37
+36        android:label="Innocent Friend"
+36-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:14:9-40
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:15:9-40
+39        <activity
+39-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:9-18:59
+40            android:name="com.parse.starter.PopupEventRequestActivity"
+40-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:17:13-54
+41            android:theme="@style/AppTheme.CustomTheme" />
+41-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:18:13-56
+42            />
+43        <activity
+43-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:20:9-21:64
+44            android:name="com.parse.starter.AllEventsRequestsActivity"
+44-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:20:19-60
+45            android:parentActivityName="com.parse.starter.ShareEventsActivity" />
+45-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:21:13-62
+46        <activity
+46-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:22:9-23:64
+47            android:name="com.parse.starter.SendEventActivity"
+47-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:22:19-52
+48            android:parentActivityName="com.parse.starter.ShareEventsActivity" />
+48-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:23:13-62
+49        <activity
+49-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:24:9-25:57
+50            android:name="com.parse.starter.ShareEventsActivity"
+50-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:24:19-54
+51            android:parentActivityName="com.parse.starter.HomeActivity" />
+51-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:25:13-55
+52        <activity
+52-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:26:9-28:59
+53            android:name="com.parse.starter.PopupNoteView"
+53-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:27:13-42
+54            android:theme="@style/AppTheme.CustomTheme" />
+54-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:28:13-56
+55        <activity
+55-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:29:9-30:57
+56            android:name="com.parse.starter.NoteViewActivity"
+56-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:29:19-51
+57            android:parentActivityName="com.parse.starter.HomeActivity" />
+57-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:30:13-55
+58        <activity
+58-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:31:9-33:59
+59            android:name="com.parse.starter.RequestingAttendenceActivity"
+59-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:32:13-57
+60            android:theme="@style/AppTheme.CustomTheme" />
+60-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:33:13-56
+61        <activity
+61-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:34:9-35:57
+62            android:name="com.parse.starter.AttendenceActivity"
+62-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:34:19-53
+63            android:parentActivityName="com.parse.starter.HomeActivity" />
+63-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:35:13-55
+64        <activity
+64-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:36:9-38:59
+65            android:name="com.parse.starter.PopupEventView"
+65-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:37:13-43
+66            android:theme="@style/AppTheme.CustomTheme" />
+66-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:38:13-56
+67        <activity
+67-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:39:9-40:63
+68            android:name="com.parse.starter.EventEditorActivity"
+68-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:39:19-54
+69            android:parentActivityName="com.parse.starter.EditEventsActivity" />
+69-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:40:13-61
+70        <activity
+70-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:41:9-43:59
+71            android:name="com.parse.starter.PopupAttendenceActivity"
+71-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:42:13-52
+72            android:theme="@style/AppTheme.CustomTheme" />
+72-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:43:13-56
+73        <activity
+73-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:44:9-45:57
+74            android:name="com.parse.starter.EditEventsActivity"
+74-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:44:19-53
+75            android:parentActivityName="com.parse.starter.HomeActivity" />
+75-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:45:13-55
+76        <activity
+76-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:46:9-47:57
+77            android:name="com.parse.starter.SettingsActivity"
+77-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:46:19-51
+78            android:parentActivityName="com.parse.starter.HomeActivity" />
+78-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:47:13-55
+79        <activity android:name="com.parse.starter.HomeActivity" />
+79-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:48:9-50
+79-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:48:19-47
+80        <activity
+80-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:49:9-50:65
+81            android:name="com.parse.starter.SelectSubjectActivity"
+81-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:49:19-56
+82            android:parentActivityName="com.parse.starter.GettingSlotsActivity" />
+82-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:50:13-63
+83        <activity
+83-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:51:9-52:62
+84            android:name="com.parse.starter.GettingSlotsActivity"
+84-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:51:19-55
+85            android:parentActivityName="com.parse.starter.TimeTableActivity" />
+85-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:52:13-60
+86        <activity
+86-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:53:9-54:65
+87            android:name="com.parse.starter.TimeTableActivity"
+87-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:53:19-52
+88            android:parentActivityName="com.parse.starter.SubjectsListActivity" />
+88-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:54:13-63
+89        <activity
+89-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:55:9-56:59
+90            android:name="com.parse.starter.NoteEditorActivity"
+90-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:55:19-53
+91            android:theme="@style/AppTheme.CustomTheme" />
+91-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:56:13-56
+92        />
+93        <activity
+93-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:58:9-59:57
+94            android:name="com.parse.starter.SubjectsListActivity"
+94-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:58:19-55
+95            android:parentActivityName="com.parse.starter.HomeActivity" />
+95-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:59:13-55
+96        <activity
+96-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:60:9-69:20
+97            android:name="com.parse.starter.MainActivity"
+97-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:61:13-41
+98            android:label="@string/app_name"
+98-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:63:13-45
+99            android:theme="@style/AppTheme.NoTitle" >
+99-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:62:13-52
+100            <intent-filter>
+100-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:64:13-68:29
+101                <action android:name="android.intent.action.MAIN" />
+101-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:65:17-69
+101-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:65:25-66
+102
+103                <category android:name="android.intent.category.LAUNCHER" />
+103-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:67:17-77
+103-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:67:27-74
+104            </intent-filter>
+105        </activity>
+106
+107        <receiver
+107-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:71:9-73:38
+108            android:name="com.parse.starter.AlarmReceiver"
+108-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:71:19-48
+109            android:enabled="true"
+109-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:72:13-35
+110            android:exported="true" />
+110-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:73:13-36
+111        <receiver android:name="com.parse.starter.AlertReceiver" />
+111-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:74:9-51
+111-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:74:19-48
+112        <receiver
+112-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:75:9-78:39
+113            android:name="com.parse.starter.TaskReceiver"
+113-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:76:13-41
+114            android:enabled="true"
+114-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:77:13-35
+115            android:exported="true" />
+115-->C:\Users\divyanshu\Desktop\coding\Android Studio\Udemy\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:78:13-36
+116
+117        <meta-data
+117-->[com.android.support:design:26.0.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\9dba6b1526f27c0ab9a2d460c76f18b4\design-26.0.0\AndroidManifest.xml:26:9-28:38
+118            android:name="android.support.VERSION"
+118-->[com.android.support:design:26.0.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\9dba6b1526f27c0ab9a2d460c76f18b4\design-26.0.0\AndroidManifest.xml:27:13-51
+119            android:value="26.0.0" />
+119-->[com.android.support:design:26.0.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\9dba6b1526f27c0ab9a2d460c76f18b4\design-26.0.0\AndroidManifest.xml:28:13-35
+120
+121        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+121-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\34d08cfae750c7a0b3b7db8624429441\play-services-cast-framework-9.4.0\AndroidManifest.xml:6:9-100
+121-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\34d08cfae750c7a0b3b7db8624429441\play-services-cast-framework-9.4.0\AndroidManifest.xml:6:19-97
+122
+123        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+123-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\34d08cfae750c7a0b3b7db8624429441\play-services-cast-framework-9.4.0\AndroidManifest.xml:7:9-104
+123-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\34d08cfae750c7a0b3b7db8624429441\play-services-cast-framework-9.4.0\AndroidManifest.xml:7:18-101
+124        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+124-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\34d08cfae750c7a0b3b7db8624429441\play-services-cast-framework-9.4.0\AndroidManifest.xml:8:9-92
+124-->[com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\34d08cfae750c7a0b3b7db8624429441\play-services-cast-framework-9.4.0\AndroidManifest.xml:8:18-90
+125        <activity
+125-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\d61be9ef71cd9f4aa810831c39215afb\play-services-ads-lite-9.4.0\AndroidManifest.xml:26:9-29:64
+126            android:name="com.google.android.gms.ads.AdActivity"
+126-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\d61be9ef71cd9f4aa810831c39215afb\play-services-ads-lite-9.4.0\AndroidManifest.xml:27:13-65
+127            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+127-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\d61be9ef71cd9f4aa810831c39215afb\play-services-ads-lite-9.4.0\AndroidManifest.xml:28:13-122
+128            android:theme="@android:style/Theme.Translucent" />
+128-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\d61be9ef71cd9f4aa810831c39215afb\play-services-ads-lite-9.4.0\AndroidManifest.xml:29:13-61
+129        <activity
+129-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\d61be9ef71cd9f4aa810831c39215afb\play-services-ads-lite-9.4.0\AndroidManifest.xml:30:9-31:52
+130            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+130-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\d61be9ef71cd9f4aa810831c39215afb\play-services-ads-lite-9.4.0\AndroidManifest.xml:30:19-91
+131            android:theme="@style/Theme.IAPTheme" />
+131-->[com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\d61be9ef71cd9f4aa810831c39215afb\play-services-ads-lite-9.4.0\AndroidManifest.xml:31:13-50
+132        <activity
+132-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\f359e1a4ae2eeaf4b071b0f8fbb3b354\play-services-appinvite-9.4.0\AndroidManifest.xml:21:9-29:20
+133            android:name="com.google.android.gms.appinvite.PreviewActivity"
+133-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\f359e1a4ae2eeaf4b071b0f8fbb3b354\play-services-appinvite-9.4.0\AndroidManifest.xml:22:17-48
+134            android:exported="true"
+134-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\f359e1a4ae2eeaf4b071b0f8fbb3b354\play-services-appinvite-9.4.0\AndroidManifest.xml:23:17-40
+135            android:theme="@style/Theme.AppInvite.Preview" >
+135-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\f359e1a4ae2eeaf4b071b0f8fbb3b354\play-services-appinvite-9.4.0\AndroidManifest.xml:24:17-63
+136            <intent-filter>
+136-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\f359e1a4ae2eeaf4b071b0f8fbb3b354\play-services-appinvite-9.4.0\AndroidManifest.xml:25:13-28:29
+137                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+137-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\f359e1a4ae2eeaf4b071b0f8fbb3b354\play-services-appinvite-9.4.0\AndroidManifest.xml:26:17-89
+137-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\f359e1a4ae2eeaf4b071b0f8fbb3b354\play-services-appinvite-9.4.0\AndroidManifest.xml:26:25-87
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\f359e1a4ae2eeaf4b071b0f8fbb3b354\play-services-appinvite-9.4.0\AndroidManifest.xml:27:17-75
+139-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\f359e1a4ae2eeaf4b071b0f8fbb3b354\play-services-appinvite-9.4.0\AndroidManifest.xml:27:27-73
+140            </intent-filter>
+141        </activity>
+142        <activity
+142-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\da59906358dbe644233275caff783de8\play-services-auth-9.4.0\AndroidManifest.xml:21:9-24:46
+143            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+143-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\da59906358dbe644233275caff783de8\play-services-auth-9.4.0\AndroidManifest.xml:21:19-68
+144            android:excludeFromRecents="true"
+144-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\da59906358dbe644233275caff783de8\play-services-auth-9.4.0\AndroidManifest.xml:23:19-52
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\da59906358dbe644233275caff783de8\play-services-auth-9.4.0\AndroidManifest.xml:24:19-43
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+146-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\da59906358dbe644233275caff783de8\play-services-auth-9.4.0\AndroidManifest.xml:22:19-78
+147        <!--
+148Service handling Google Sign-In user revocation. For apps that do not integrate with
+149            Google Sign-In, this service will never be started.
+150        -->
+151        <service
+151-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\da59906358dbe644233275caff783de8\play-services-auth-9.4.0\AndroidManifest.xml:28:9-31:110
+152            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+152-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\da59906358dbe644233275caff783de8\play-services-auth-9.4.0\AndroidManifest.xml:29:13-58
+153            android:exported="true"
+153-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\da59906358dbe644233275caff783de8\play-services-auth-9.4.0\AndroidManifest.xml:30:13-36
+154            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+154-->[com.google.android.gms:play-services-auth:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\da59906358dbe644233275caff783de8\play-services-auth-9.4.0\AndroidManifest.xml:31:13-107
+155        <service
+155-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\9862907ff401b26c80a087a5ed1c4305\firebase-crash-9.4.0\AndroidManifest.xml:26:9-27:50
+156            android:name="com.google.firebase.crash.internal.service.FirebaseCrashReceiverService"
+156-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\9862907ff401b26c80a087a5ed1c4305\firebase-crash-9.4.0\AndroidManifest.xml:26:18-79
+157            android:process=":background_crash" />
+157-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\9862907ff401b26c80a087a5ed1c4305\firebase-crash-9.4.0\AndroidManifest.xml:27:13-48
+158        <service
+158-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\9862907ff401b26c80a087a5ed1c4305\firebase-crash-9.4.0\AndroidManifest.xml:29:9-30:50
+159            android:name="com.google.firebase.crash.internal.service.FirebaseCrashSenderService"
+159-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\9862907ff401b26c80a087a5ed1c4305\firebase-crash-9.4.0\AndroidManifest.xml:29:18-77
+160            android:process=":background_crash" />
+160-->[com.google.firebase:firebase-crash:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\9862907ff401b26c80a087a5ed1c4305\firebase-crash-9.4.0\AndroidManifest.xml:30:13-48
+161
+162        <activity
+162-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\2efcc6917ec21b4946fca4d4af7e05a5\play-services-base-9.4.0\AndroidManifest.xml:20:9-22:45
+163            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+163-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\2efcc6917ec21b4946fca4d4af7e05a5\play-services-base-9.4.0\AndroidManifest.xml:20:19-85
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\2efcc6917ec21b4946fca4d4af7e05a5\play-services-base-9.4.0\AndroidManifest.xml:22:19-43
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->[com.google.android.gms:play-services-base:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\2efcc6917ec21b4946fca4d4af7e05a5\play-services-base-9.4.0\AndroidManifest.xml:21:19-78
+166        <!--
+167 FirebaseMessagingService performs security checks at runtime,
+168             no need for explicit permissions despite exported="true"
+169        -->
+170        <service
+170-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\a137731a0e3e28993654ed778bd8301c\firebase-messaging-9.4.0\AndroidManifest.xml:24:9-30:19
+171            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+171-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\a137731a0e3e28993654ed778bd8301c\firebase-messaging-9.4.0\AndroidManifest.xml:25:13-82
+172            android:exported="true" >
+172-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\a137731a0e3e28993654ed778bd8301c\firebase-messaging-9.4.0\AndroidManifest.xml:26:13-36
+173            <intent-filter android:priority="-500" >
+173-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\a137731a0e3e28993654ed778bd8301c\firebase-messaging-9.4.0\AndroidManifest.xml:27:13-29:29
+173-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\a137731a0e3e28993654ed778bd8301c\firebase-messaging-9.4.0\AndroidManifest.xml:27:28-51
+174                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+174-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\a137731a0e3e28993654ed778bd8301c\firebase-messaging-9.4.0\AndroidManifest.xml:28:17-78
+174-->[com.google.firebase:firebase-messaging:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\a137731a0e3e28993654ed778bd8301c\firebase-messaging-9.4.0\AndroidManifest.xml:28:25-75
+175            </intent-filter>
+176        </service>
+177        <service
+177-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:25:9-27:42
+178            android:name="com.google.android.gms.tagmanager.TagManagerService"
+178-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:25:18-84
+179            android:enabled="true"
+179-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:27:17-39
+180            android:exported="false" />
+180-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:26:17-41
+181
+182        <activity
+182-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:28:9-37:20
+183            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+183-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:29:13-87
+184            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+184-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:30:13-37
+185            <intent-filter>
+185-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:31:13-36:29
+186                <data android:scheme="tagmanager.c.com.parse.starter" />
+186-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:32:17-72
+186-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:32:23-69
+187
+188                <action android:name="android.intent.action.VIEW" />
+188-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:33:17-69
+188-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:33:25-66
+189
+190                <category android:name="android.intent.category.DEFAULT" />
+190-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\f359e1a4ae2eeaf4b071b0f8fbb3b354\play-services-appinvite-9.4.0\AndroidManifest.xml:27:17-75
+190-->[com.google.android.gms:play-services-appinvite:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\f359e1a4ae2eeaf4b071b0f8fbb3b354\play-services-appinvite-9.4.0\AndroidManifest.xml:27:27-73
+191                <category android:name="android.intent.category.BROWSABLE" />
+191-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:35:17-77
+191-->[com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\83434e2dcb2d1c5ebd30194de746dd7c\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:35:27-75
+192            </intent-filter>
+193        </activity>
+194
+195        <receiver
+195-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\29785967c1af936789114375bcb95cb3\firebase-analytics-9.4.0\AndroidManifest.xml:28:7-34:18
+196            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+196-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\29785967c1af936789114375bcb95cb3\firebase-analytics-9.4.0\AndroidManifest.xml:29:11-83
+197            android:enabled="true" >
+197-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\29785967c1af936789114375bcb95cb3\firebase-analytics-9.4.0\AndroidManifest.xml:30:11-33
+198            <intent-filter>
+198-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\29785967c1af936789114375bcb95cb3\firebase-analytics-9.4.0\AndroidManifest.xml:31:9-33:25
+199                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+199-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\29785967c1af936789114375bcb95cb3\firebase-analytics-9.4.0\AndroidManifest.xml:32:11-77
+199-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\29785967c1af936789114375bcb95cb3\firebase-analytics-9.4.0\AndroidManifest.xml:32:19-75
+200            </intent-filter>
+201        </receiver>
+202
+203        <service
+203-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\29785967c1af936789114375bcb95cb3\firebase-analytics-9.4.0\AndroidManifest.xml:36:7-39:37
+204            android:name="com.google.android.gms.measurement.AppMeasurementService"
+204-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\29785967c1af936789114375bcb95cb3\firebase-analytics-9.4.0\AndroidManifest.xml:37:11-82
+205            android:enabled="true"
+205-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\29785967c1af936789114375bcb95cb3\firebase-analytics-9.4.0\AndroidManifest.xml:38:11-33
+206            android:exported="false" />
+206-->[com.google.firebase:firebase-analytics:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\29785967c1af936789114375bcb95cb3\firebase-analytics-9.4.0\AndroidManifest.xml:39:11-35
+207
+208        <receiver
+208-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:32:9-41:20
+209            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+209-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:33:13-78
+210            android:exported="true"
+210-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:34:13-36
+211            android:permission="com.google.android.c2dm.permission.SEND" >
+211-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:35:13-73
+212            <intent-filter>
+212-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:36:13-40:29
+213                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+213-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:37:17-81
+213-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:37:25-78
+214                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+214-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:38:17-86
+214-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:38:25-83
+215
+216                <category android:name="com.parse.starter" />
+216-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:39:17-61
+216-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:39:27-58
+217            </intent-filter>
+218        </receiver>
+219        <!--
+220 Internal (not exported) receiver used by the app to start its own exported services
+221             without risk of being spoofed.
+222        -->
+223        <receiver
+223-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:45:9-47:40
+224            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+224-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:46:13-86
+225            android:exported="false" />
+225-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:47:13-37
+226        <!--
+227 FirebaseInstanceIdService performs security checks at runtime,
+228             no need for explicit permissions despite exported="true"
+229        -->
+230        <service
+230-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:51:9-57:19
+231            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+231-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:52:13-77
+232            android:exported="true" >
+232-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:53:13-36
+233            <intent-filter android:priority="-500" >
+233-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:54:13-56:29
+233-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:54:28-51
+234                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+234-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:55:17-80
+234-->[com.google.firebase:firebase-iid:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\1585db40f6d9486dc63f43d828a4b926\firebase-iid-9.4.0\AndroidManifest.xml:55:25-77
+235            </intent-filter>
+236        </service>
+237
+238        <provider
+238-->[com.google.firebase:firebase-common:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\5e8c2a8a73599cd78dece8e2f30691fd\firebase-common-9.4.0\AndroidManifest.xml:7:9-11:39
+239            android:name="com.google.firebase.provider.FirebaseInitProvider"
+239-->[com.google.firebase:firebase-common:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\5e8c2a8a73599cd78dece8e2f30691fd\firebase-common-9.4.0\AndroidManifest.xml:9:13-58
+240            android:authorities="com.parse.starter.firebaseinitprovider"
+240-->[com.google.firebase:firebase-common:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\5e8c2a8a73599cd78dece8e2f30691fd\firebase-common-9.4.0\AndroidManifest.xml:8:13-72
+241            android:exported="false"
+241-->[com.google.firebase:firebase-common:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\5e8c2a8a73599cd78dece8e2f30691fd\firebase-common-9.4.0\AndroidManifest.xml:10:13-37
+242            android:initOrder="100" />
+242-->[com.google.firebase:firebase-common:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\5e8c2a8a73599cd78dece8e2f30691fd\firebase-common-9.4.0\AndroidManifest.xml:11:13-36
+243
+244        <meta-data
+244-->[com.google.android.gms:play-services-basement:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\e5d19e03f12f928277b78d60ece1dda2\play-services-basement-9.4.0\AndroidManifest.xml:21:9-23:69
+245            android:name="com.google.android.gms.version"
+245-->[com.google.android.gms:play-services-basement:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\e5d19e03f12f928277b78d60ece1dda2\play-services-basement-9.4.0\AndroidManifest.xml:22:13-58
+246            android:value="@integer/google_play_services_version" />
+246-->[com.google.android.gms:play-services-basement:9.4.0] C:\Users\divyanshu\.gradle\caches\transforms-2\files-2.1\e5d19e03f12f928277b78d60ece1dda2\play-services-basement-9.4.0\AndroidManifest.xml:23:13-66
+247    </application>
+248
+249</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Add Events" android:id="@+id/addEventsOption" />
+    <item android:title="Attendance" android:id="@+id/attendenceOption" />
+    <item android:title="Edit TimeTable" android:id="@+id/editTimeTableOption" />
+    <item android:title="Settings" android:id="@+id/settingsOption" />
+    <item android:title="Share " android:id="@+id/shareOption" />
+    <item android:title="note " android:id="@+id/noteOption" />
+    <item android:title="Logout " android:id="@+id/logoutOption" />
+
+</menu>

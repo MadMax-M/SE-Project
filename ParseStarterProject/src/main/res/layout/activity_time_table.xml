@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimeTableActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/mondayButton"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F57C00"
+            android:onClick="onDayButtonClicked"
+            android:text="Monday"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/tuesdayButton"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F57C00"
+            android:onClick="onDayButtonClicked"
+            android:text="Tuesday"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/wednesdayButton"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F57C00"
+            android:onClick="onDayButtonClicked"
+            android:tag="3"
+            android:text="Wednesday"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/thursdayButton"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F57C00"
+            android:onClick="onDayButtonClicked"
+            android:tag="4"
+            android:text="Thursday"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/fridayButton"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F57C00"
+            android:tag="5"
+            android:text="Friday"
+            android:textStyle="bold|italic"
+            android:onClick="onDayButtonClicked" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveTimeTable"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#C67979"
+        android:onClick="goToHome"
+        android:text=" save and next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="Enter your timetabe by clicking on day"
+        android:textColor="#CC6464"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backToSubjectListButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#C67979"
+        android:onClick="setBackTobackToSubjectListButton"
+        android:text="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/saveTimeTable"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+</android.support.constraint.ConstraintLayout>
